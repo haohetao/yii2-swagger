@@ -1,6 +1,6 @@
 <?php
 
-use light\swagger\SwaggerUIAsset;
+use haohetao\swagger\SwaggerUIAsset;
 use yii\helpers\Json;
 
 SwaggerUIAsset::register($this);
