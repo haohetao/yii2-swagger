@@ -51,12 +51,12 @@ public function actions()
     return [
         //文档预览地址,配置好后可以直接访问:http://api.yourhost.com/site/doc
         'doc' => [
-            'class' => 'light\swagger\SwaggerAction',
+            'class' => 'haohetao\swagger\SwaggerAction',
             'restUrl' => \yii\helpers\Url::to(['/site/api'], true),
         ],
         //看到上面配置的*restUrl*了么，没错, 它就是指向这个地址
         'api' => [
-            'class' => 'light\swagger\SwaggerApiAction',
+            'class' => 'haohetao\swagger\SwaggerApiAction',
             //这里配置需要扫描的目录,不支持yii的alias,所以需要这里直接获取到真实地址
             'scanDir' => [
                 Yii::getAlias('@api/modules/v1/swagger'),

@@ -47,12 +47,12 @@ public function actions()
     return [
         //The document preview addesss:http://api.yourhost.com/site/doc
         'doc' => [
-            'class' => 'light\swagger\SwaggerAction',
+            'class' => 'haohetao\swagger\SwaggerAction',
             'restUrl' => \yii\helpers\Url::to(['/site/api'], true),
         ],
         //The resultUrl action.
         'api' => [
-            'class' => 'light\swagger\SwaggerApiAction',
+            'class' => 'haohetao\swagger\SwaggerApiAction',
             //The scan directories, you should use real path there.
             'scanDir' => [
                 Yii::getAlias('@api/modules/v1/swagger'),
