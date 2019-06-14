@@ -1,13 +1,13 @@
 {
-  "name": "light/yii2-swagger",
+  "name": "haohetao/yii2-swagger",
   "description": "swagger intergation with yii2",
   "type": "library",
   "keywords": ["yii2","extension","swagger","Restful","document"],
   "license": "MIT",
   "authors": [
     {
-      "name": "lichunqiang",
-      "email": "light-li@hotmail.com"
+      "name": "lichunqiang,haohetao",
+      "email": "light-li@hotmail.com,haohetao@gmail.com"
     }
   ],
   "require": {
