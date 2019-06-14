@@ -143,6 +143,6 @@ class SwaggerApiAction extends Action
      */
     protected function getSwagger()
     {
-        return \Swagger\scan($this->scanDir, $this->scanOptions);
+        return \OpenApi\scan($this->scanDir,$this->scanOptions);
     }
 }
