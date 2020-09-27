@@ -105,7 +105,8 @@ class SwaggerAction extends Action
         'validatorUrl' => null,
         'filter' => true,
         'persistAuthorization' => true,
-        'withCredentials' => true
+        'withCredentials' => true,
+        'docExpansion' => 'none'
     ];
     
     /**
