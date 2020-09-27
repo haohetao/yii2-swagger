@@ -103,6 +103,9 @@ class SwaggerAction extends Action
         ],
         'layout' => 'StandaloneLayout',
         'validatorUrl' => null,
+        'filter' => true,
+        'persistAuthorization' => true,
+        'withCredentials' => true
     ];
     
     /**
